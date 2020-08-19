@@ -1,0 +1,160 @@
+body {
+    background: rgb(58, 58, 58);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+/* HEADER */
+header {
+    background-color: black;
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50;
+    padding: 20px;
+    text-align: left;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+header .logo a {
+
+    background-size: 50pt;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 100px;
+    position: relative;
+    text-indent: -9999999px;
+    top: -20px;
+    width: 50pt;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* MAIN BOX */
+.main-box {
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.main-box h2, h3 {
+    color: black;
+    font-size: 40px;
+    
+}
+
+
+/* FEATURES */
+
+.features {
+    background: white;
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.features figure {
+    vertical-align: top;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 20px;
+}
+
+.features figure img {
+    border: 1px solid;
+    border-radius: 10%;
+    box-shadow: grey 0px 0px 10px;
+    width: 200px;
+   
+}
+
+.features figure span {
+    display: block;
+}
+
+.features div {
+    background: black;
+    color: grey;
+    font-size: 15px;
+    padding: 20px 20px;
+    text-align: center; 
+    height: 20px;
+}
+
+.features-mid {
+    background: black;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    flex: auto;
+}
+
+/* LOWER SECTION */
+
+.lower-section {
+    flex-direction: row;
+    display: flex;
+    color: slategray;
+    padding: 15px;
+    
+}
+
+.lower-section div {
+    text-align: center;
+    background: white;
+    width: 200px;
+    box-shadow: black 5px 2px 10px;
+    margin: auto;
+    font-size: 15px;
+}
+
+.lower-section p {
+    background-color: limegreen;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: grey 5px 2px 5px;
+}
+
+/* CONTACT */
+.contact-main {
+    background: grey
+    margin: auto;
+    padding: 40px 40px;
+}
+
+.contact-main div {
+    background: black;
+}
+
+/* FOOTER */
+
+footer {
+    background: black;
+    color: grey;
+    font-size: 15px;
+    padding: 20px 20px;
+    text-align: center; 
+}
