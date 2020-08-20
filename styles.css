@@ -66,17 +66,15 @@ nav li {
 
 .features {
     background: white;
-    color: gray;
-    padding: 20px;
+    color: black;
+    padding: 30px;
     display: flex;
     flex-direction: row;
 }
 
 .features figure {
     vertical-align: top;
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
+    justify-content: right; 
     margin: auto;
     text-align: center;
     text-transform: uppercase;
@@ -91,8 +89,8 @@ nav li {
    
 }
 
-.features figure span {
-    display: block;
+.features div span {
+    text-transform: lowercase;
 }
 
 .features div {
